@@ -8,7 +8,7 @@
       name="description"
       content="Jesus For Life Outreach (JEFLO) is a church and community ministry in Busikiri, Wakiso District, Uganda. Come as you are."
     />
-    <link rel="icon" href="images/logo.png" />
+    <link rel="icon" href="images/favicon.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -19,8 +19,12 @@
   </head>
   <body>
     <header class="site-header">
-      <a class="brand" href="#home">
-        <img src="images/logo.png" alt="Jesus For Life Outreach" />
+      <a class="brand" href="#home" aria-label="Jesus For Life Outreach">
+        <img class="brand-mark" src="images/mark.svg" alt="" />
+        <span class="brand-text">
+          <strong>Jesus For Life</strong>
+          <span>Outreach</span>
+        </span>
       </a>
       <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
         Menu
@@ -236,9 +240,15 @@
     </main>
 
     <footer class="site-footer">
-      <img src="images/logo.png" alt="" />
-      <p>Jesus For Life Outreach · Busikiri, Uganda</p>
-      <p class="small">&copy; <span id="year"></span> JEFLO</p>
+      <a class="brand" href="#home" aria-label="Jesus For Life Outreach">
+        <img class="brand-mark" src="images/mark.svg" alt="" />
+        <span class="brand-text">
+          <strong>Jesus For Life</strong>
+          <span>Outreach</span>
+        </span>
+      </a>
+      <p>Busikiri, Wakiso District, Uganda</p>
+      <p class="small">&copy; <span id="year"></span> Jesus For Life Outreach</p>
     </footer>
 
     <script src="script.js"></script>

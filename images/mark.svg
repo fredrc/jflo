@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-hidden="true">
+  <circle cx="64" cy="64" r="64" fill="#b08a3e"/>
+  <circle cx="64" cy="64" r="58" fill="#152921"/>
+  <g transform="translate(64 66) scale(0.88) translate(-64 -66)">
+    <path
+      fill="#f4efe4"
+      d="M22 63l12-4c2-8 9-14 18-13-1-12 6-24 18-28-6 10-6 20-2 28 12-22 42-20 48 2-12-6-24-2-34 6 16-2 34 6 40 18-14-6-28-6-38-2 10 6 16 18 14 30-8-10-16-16-24-18-4 10-12 20-24 24 8-12 10-22 8-30-10 4-20-2-22-10-4 2-8 2-12 0 4-2 4-4 2-3z"
+    />
+    <circle cx="40" cy="58" r="2.1" fill="#152921"/>
+    <g fill="#b08a3e">
+      <rect x="53" y="58" width="3.4" height="24" rx="1.4"/>
+      <rect x="46.2" y="66.6" width="17" height="3.4" rx="1.4"/>
+    </g>
+  </g>
+</svg>
