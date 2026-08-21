@@ -1,15 +1,9 @@
 # Jesus For Life Outreach
 
-Simple starter website for **Jesus For Life Outreach**.
+Simple static website for **Jesus For Life Outreach (JEFLO)** in Busikiri, Wakiso District, Uganda.
 
-This is a static site (`index.html` + `styles.css`) meant as a first version. Photos, service times, contact details, and church documents can be added next.
+Open `index.html` in a browser. No server is required.
 
-## Local preview
+Facebook: [Jesus For Life Outreach](https://www.facebook.com/JesusForLifeOutreach)
 
-Open `index.html` in a browser, or from this folder:
-
-```bash
-python3 -m http.server 8000
-```
-
-Then visit [http://localhost:8000](http://localhost:8000).
+When the domain is pointed at GitHub Pages, these same files can be hosted as the public site.

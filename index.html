@@ -3,15 +3,16 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Jesus For Life Outreach</title>
+    <title>Jesus For Life Outreach | Busikiri, Uganda</title>
     <meta
       name="description"
-      content="Jesus For Life Outreach — a community of faith sharing the love of Christ."
+      content="Jesus For Life Outreach (JEFLO) is a church and community ministry in Busikiri, Wakiso District, Uganda. Come as you are."
     />
+    <link rel="icon" href="images/logo.png" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=Source+Sans+3:wght@400;500;600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="styles.css" />
@@ -19,81 +20,227 @@
   <body>
     <header class="site-header">
       <a class="brand" href="#home">
-        <span class="brand-mark" aria-hidden="true">✝</span>
-        <span class="brand-text">
-          <strong>Jesus For Life</strong>
-          <em>Outreach</em>
-        </span>
+        <img src="images/logo.png" alt="Jesus For Life Outreach" />
       </a>
-      <nav class="nav" aria-label="Primary">
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="menu">
+        Menu
+      </button>
+      <nav id="menu" class="nav" aria-label="Primary">
         <a href="#about">About</a>
-        <a href="#gather">Gather</a>
-        <a href="#contact">Contact</a>
+        <a href="#ministry">Ministry</a>
+        <a href="#meals">Sunday meals</a>
+        <a href="#gallery">Photos</a>
+        <a href="#visit">Visit</a>
       </nav>
     </header>
 
     <main>
       <section id="home" class="hero">
-        <p class="eyebrow">Welcome</p>
-        <h1>Jesus For Life Outreach</h1>
-        <p class="lede">
-          A simple place of faith, hope, and welcome. Come as you are —
-          there is room for you here.
-        </p>
-        <a class="button" href="#contact">Get in touch</a>
+        <div class="hero-copy">
+          <p class="eyebrow">JEFLO Church · Wakiso, Uganda</p>
+          <h1>Jesus For Life Outreach</h1>
+          <p class="lede">
+            A Bible-teaching church in the village of Busikiri. We welcome
+            you as you are, and walk with you in Jesus Christ.
+          </p>
+          <div class="actions">
+            <a class="button" href="#meals">Partner with us</a>
+            <a
+              class="button button-ghost"
+              href="https://www.facebook.com/JesusForLifeOutreach"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Facebook page</a
+            >
+          </div>
+        </div>
+        <figure class="hero-photo">
+          <img
+            src="images/choir.jpg"
+            alt="The choir worshipping at Jesus For Life Outreach"
+          />
+        </figure>
       </section>
 
       <section id="about" class="panel">
-        <h2>About us</h2>
-        <p>
-          Jesus For Life Outreach exists to share the love of Jesus Christ
-          and to walk alongside our neighbors in everyday life.
-        </p>
-        <p class="note">
-          More about our story, leadership, and ministries will be added
-          soon.
-        </p>
+        <div class="split">
+          <div>
+            <h2>Who we are</h2>
+            <p>
+              Jesus For Life Outreach (JEFLO) is a church of believers in
+              Jesus Christ, located in a beautiful village in Wakiso
+              District, Uganda. We share the gospel through teaching,
+              prayer, care, and action.
+            </p>
+            <p>
+              If you are strong in faith, curious about faith, or feel
+              like falling apart, you are welcome. We are all on a
+              journey. Let’s encourage one another to become more like
+              Christ.
+            </p>
+            <p>
+              Pastor Adams Guscan leads the ministry. Over the years the
+              church has also served through a primary school, hospital
+              and prison visits, youth seminars, and outreach in nearby
+              communities.
+            </p>
+          </div>
+          <figure>
+            <img
+              src="images/pastor.jpg"
+              alt="Pastor Adams Guscan at the church"
+            />
+            <figcaption>Pastor Adams Guscan</figcaption>
+          </figure>
+        </div>
       </section>
 
-      <section id="gather" class="panel">
-        <h2>Gather with us</h2>
-        <p>
-          We would love to meet you. Service times, location, and upcoming
-          events will be posted here.
+      <section id="ministry" class="panel panel-alt">
+        <h2>Life at JEFLO</h2>
+        <p class="intro">
+          Sunday worship, teaching, music, and care for our neighbors are
+          at the heart of this ministry.
         </p>
         <ul class="cards">
           <li>
-            <h3>Worship</h3>
-            <p>Details coming soon.</p>
+            <img src="images/sermon.jpg" alt="Preaching from the JFLO pulpit" />
+            <h3>Worship and the Word</h3>
+            <p>Gathered preaching, prayer, and Sunday services.</p>
           </li>
           <li>
-            <h3>Prayer</h3>
-            <p>Details coming soon.</p>
+            <img src="images/choir-kente.jpg" alt="The church choir singing" />
+            <h3>The choir</h3>
+            <p>Music that leads the congregation in worship.</p>
           </li>
           <li>
+            <img src="images/seminars.jpg" alt="Leaders gathered after a seminar" />
+            <h3>Seminars</h3>
+            <p>Training for youths and members who want to serve.</p>
+          </li>
+          <li>
+            <img
+              src="images/outreach.jpg"
+              alt="Outdoor singing during a community gathering"
+            />
             <h3>Outreach</h3>
-            <p>Details coming soon.</p>
+            <p>Evangelism, community visits, and public teaching.</p>
+          </li>
+          <li>
+            <img
+              src="images/wedding.jpg"
+              alt="A wedding celebration at the church"
+            />
+            <h3>Marriage and family</h3>
+            <p>Standing with couples and families in the church.</p>
+          </li>
+          <li>
+            <img
+              src="images/culture.jpg"
+              alt="Church members in cultural dress"
+            />
+            <h3>Culture</h3>
+            <p>Celebrating who we are as we follow Jesus.</p>
           </li>
         </ul>
       </section>
 
-      <section id="contact" class="panel">
-        <h2>Contact</h2>
-        <p>
-          Have a question, a prayer request, or want to visit? Reach out
-          and we will get back to you.
+      <section id="meals" class="panel">
+        <div class="split">
+          <figure>
+            <img
+              src="images/kids-feeding.jpg"
+              alt="Children eating a meal at the church"
+            />
+            <figcaption>Kids feeding program</figcaption>
+          </figure>
+          <div>
+            <p class="eyebrow">A present need</p>
+            <h2>A Sunday meal</h2>
+            <p>
+              In this rural area, many people can hardly afford two meals
+              a day. Some have one. Some go a full day without a complete
+              meal. Children, the elderly, and single mothers are the most
+              affected.
+            </p>
+            <p>
+              The church already encourages members to work, to share
+              with those who have less, and to welcome help from
+              well-wishers. We also long to feed part of the congregation
+              every Sunday — especially children, the elderly, and single
+              mothers.
+            </p>
+            <p>
+              A meal at church is more than food. People still walk long
+              distances to find something to eat. If we can offer a
+              Sunday meal, we also invite people to come, hear the Word of
+              God, and sit among friends.
+            </p>
+            <p>
+              If you would like to partner with this, please write to us
+              on
+              <a
+                href="https://www.facebook.com/JesusForLifeOutreach"
+                target="_blank"
+                rel="noopener noreferrer"
+                >Facebook</a
+              >. May the Lord bless you.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="gallery" class="panel panel-alt">
+        <h2>From the church</h2>
+        <div class="gallery">
+          <img src="images/kids-feeding.jpg" alt="Children sharing a meal" />
+          <img src="images/choir.jpg" alt="Choir in worship" />
+          <img src="images/culture.jpg" alt="Cultural celebration" />
+          <img src="images/outreach.jpg" alt="Community outreach" />
+          <img src="images/seminars.jpg" alt="Seminar gathering" />
+          <img src="images/wedding.jpg" alt="Wedding at the church" />
+        </div>
+      </section>
+
+      <section id="visit" class="panel">
+        <h2>Visit and contact</h2>
+        <p class="intro">
+          We love visitors, and you are most welcome.
         </p>
-        <p class="note">Contact details will be added soon.</p>
+        <div class="visit-grid">
+          <div>
+            <h3>Where we are</h3>
+            <p>
+              Busikiri, Gombe Sub-county, Mwererwe LC1<br />
+              Wakiso District, Uganda
+            </p>
+            <p>
+              About 19 miles from Kampala, along the Matugga–Semuto road.
+            </p>
+          </div>
+          <div>
+            <h3>Online</h3>
+            <p>
+              The church is on Facebook as
+              <strong>Jesus For Life Outreach</strong>.
+            </p>
+            <a
+              class="button"
+              href="https://www.facebook.com/JesusForLifeOutreach"
+              target="_blank"
+              rel="noopener noreferrer"
+              >Open Facebook page</a
+            >
+          </div>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <p>Jesus For Life Outreach</p>
-      <p class="small">&copy; <span id="year"></span></p>
+      <img src="images/logo.png" alt="" />
+      <p>Jesus For Life Outreach · Busikiri, Uganda</p>
+      <p class="small">&copy; <span id="year"></span> JEFLO</p>
     </footer>
 
-    <script>
-      document.getElementById("year").textContent = new Date().getFullYear();
-    </script>
+    <script src="script.js"></script>
   </body>
 </html>
