@@ -198,19 +198,30 @@ a {
   color: white;
 }
 
+.hero-photo,
+.split figure,
+.cards img,
+.gallery img {
+  background: #d7eef8;
+}
+
 .hero-photo img,
-.panel figure img,
+.split figure img,
 .cards img,
 .gallery img {
   width: 100%;
-  height: 100%;
-  object-fit: cover;
+  height: auto;
+  display: block;
+  object-fit: contain;
+  object-position: center;
+}
+
+.hero-photo {
+  border: 1px solid var(--line);
 }
 
 .hero-photo img {
-  min-height: 22rem;
-  max-height: 32rem;
-  border: 1px solid var(--line);
+  aspect-ratio: 3 / 2;
 }
 
 .panel {
@@ -236,7 +247,7 @@ a {
 }
 
 .split figure img {
-  max-height: 28rem;
+  aspect-ratio: 4 / 3;
 }
 
 figcaption {
@@ -261,7 +272,7 @@ figcaption {
 }
 
 .cards img {
-  height: 11rem;
+  aspect-ratio: 4 / 3;
 }
 
 .cards p {
@@ -282,7 +293,7 @@ figcaption {
 }
 
 .gallery img {
-  height: 13rem;
+  aspect-ratio: 4 / 3;
 }
 
 .visit-grid {
