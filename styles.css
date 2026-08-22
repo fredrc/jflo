@@ -296,6 +296,57 @@ figcaption {
   aspect-ratio: 4 / 3;
 }
 
+.spotlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1.5rem;
+  align-items: stretch;
+}
+
+.spotlight {
+  display: flex;
+  flex-direction: column;
+  background: var(--cream);
+  border: 1px solid var(--line);
+  color: inherit;
+  text-decoration: none;
+}
+
+.spotlight img {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 4 / 3;
+  object-fit: contain;
+  background: #d7eef8;
+}
+
+.spotlight .eyebrow,
+.spotlight h2,
+.spotlight p,
+.spotlight .more {
+  padding-left: 1.2rem;
+  padding-right: 1.2rem;
+}
+
+.spotlight .eyebrow {
+  margin-top: 1.1rem;
+}
+
+.spotlight .more {
+  margin-top: auto;
+  padding-bottom: 1.2rem;
+  color: var(--orange);
+  font-weight: 700;
+}
+
+.spotlight-link:hover {
+  border-color: var(--orange);
+}
+
+.spotlight-link:hover .more {
+  text-decoration: underline;
+}
+
 .visit-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -326,6 +377,7 @@ figcaption {
   .split,
   .cards,
   .gallery,
+  .spotlights,
   .visit-grid {
     grid-template-columns: 1fr;
   }
