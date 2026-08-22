@@ -322,6 +322,10 @@ figcaption {
   background: #d7eef8;
 }
 
+.tile-from-top {
+  object-position: center 28%;
+}
+
 .tile-label {
   display: flex;
   align-items: center;
