@@ -322,7 +322,7 @@ figcaption {
   background: #d7eef8;
 }
 
-.tile-from-top {
+.tile img.tile-from-top {
   object-position: center 12%;
 }
 
